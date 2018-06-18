@@ -1,6 +1,14 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                 $("button").click(function(){
+                  $("ul.professional-interests").toggle();
+              });
+            });
+        </script>
         <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScrXurMc3x3KTlcWkksAaMjBkm8KNCmO659hlVE7Fhu-oZ3V3z">
         <title>
             the site thats better than sean franks in every way
@@ -106,6 +114,19 @@
                         </section>
                 </div>
             </main>
+        <main>
+            <div class="content">
+                <header>Professional Interests</header>
+        <section class="interests">
+            <button>click for professional interests</button>
+            <ul class="professional-interests">
+                <li>animation</li>
+                <li>robotics</li>
+                <li> codding</li>
+            </ul>
+        </section>
+            </div>
+        </main>
         </div>
     </body>
 </html>
